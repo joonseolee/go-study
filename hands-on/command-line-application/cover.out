@@ -1,0 +1,25 @@
+mode: set
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:17.56,23.38 5 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:26.2,27.20 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:30.2,30.18 1 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:23.38,25.3 1 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:27.20,29.3 1 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:33.52,35.34 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:35.34,37.3 1 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:40.55,42.16 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:45.2,46.12 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:42.16,44.3 1 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:49.35,50.23 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:53.2,53.12 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:50.23,52.3 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:56.60,62.16 6 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:65.2,65.20 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:68.2,68.15 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:62.16,64.3 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:65.20,67.3 1 1
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:71.13,73.16 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:77.2,78.16 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:82.2,83.16 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:73.16,76.3 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:78.16,81.3 2 0
+github.com/joonseolee/go-study/hands-on/command-line-application/main.go:83.16,86.3 2 0
