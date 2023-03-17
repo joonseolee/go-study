@@ -3,8 +3,11 @@ package main
 import (
 	"bytes"
 	"errors"
+	"sort"
 	"testing"
 )
+
+var xLocation []int = []int{0, 0, -1, 1}
 
 type testConfig struct {
 	args     []string
@@ -78,4 +81,31 @@ func TestValidateArgs(t *testing.T) {
 			t.Errorf("Expected nil error, got: %v\n", err)
 		}
 	}
+}
+
+func topKFrequent(nums []int, k int) []int {
+	basket := map[int]int{}
+
+	for num := range nums {
+		count, exists := basket[num]
+		if !exists {
+			count = 0
+		}
+		basket[num] = count + 1
+	}
+
+	keys := make([]int, 0, len(basket))
+	for key := range basket {
+		keys = append(keys, key)
+	}
+
+	sort.SliceStable(keys, func(i, j int) bool {
+		return basket[keys[i]] < basket[keys[j]]
+	})
+
+	result := make([]int, k)
+	for _, index := range result {
+		result[index] = basket[index]
+	}
+	return result
 }
